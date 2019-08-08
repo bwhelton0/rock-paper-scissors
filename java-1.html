@@ -8,30 +8,52 @@
     padding: 0;
     box-sizing: border-box;
     }
+
+   body {background-color:#25272E;}
+
+    
+    
+     h1 { color:25272E;}
+             h1 {text-align: center;}
+             h1 {font-family: 'Times New Roman', Times, serif;}
+    h1 {background-color: white;} 
+    h1 {padding:20px;}
     
 
-
-
+.score-board {margin:20px auto;}
+.score-board {border:3px solid white;}
+.score-board {border-radius:4px;}
+.score-board {width:200px; height: 250px;}
+.score-board {color:white;}
+.score-board {font-size:46px;}
 
 </style>
-       
+      
+      
+
+
+
+
         <meta charset="utf-8">
        <title> Rock, Paper, Scissors </title>
     <link rel="rps-stylesheet" href="rps-stylesheet.scss">
     </head>
 <body>
-    <header></header>
+    <header>
     <h1>Rock, Paper, Scissors </h1>
+    </header>
+    
     <div class="score-board">
     <div id="user-label" class="badge">user</div>
     <div id="computer-label" class="badge">computer</div>
 
     <span id="user-score">0</span>
     <span id="computer-score">0</span>
-    <div class="results">
-        <p>paper covers rock</p>
     </div>
-
+    <div class="results">
+        <p>paper covers rock</p>   
+    </div>
+        
         <div class="choices">
           <div class="choice" id="p">
             <img src="https://raw.githubusercontent.com/reiinakano/tfjs-rock-paper-scissors/master/images/paper.png" alt"">
